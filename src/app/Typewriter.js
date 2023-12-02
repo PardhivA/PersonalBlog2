@@ -32,10 +32,10 @@ const Typewriter = ({ delay }) => {
       timeout = setTimeout(() => {
         if (currentType == 0) {
           setCurrentType(1);
-          setCurrentRefText("Explore about me and my projects, contact me !!");
+          setCurrentRefText("Explore me and my projects, contact me !!");
         } else {
           setCurrentType(0);
-          setCurrentRefText("Welcome to my personal blog ! ");
+          setCurrentRefText("Welcome to my personal blog !!  ");
         }
         setCurrentCondition(0);
       }, delay);
@@ -44,7 +44,7 @@ const Typewriter = ({ delay }) => {
   }, [currentIndex, delay, currentRefText, currentCondition]);
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center mt-20 pt-5">
       <span className="font-mono text-4xl object-center mb-20 dark:text-white">
         {currentText}
       </span>
