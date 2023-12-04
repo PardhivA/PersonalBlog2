@@ -1,7 +1,6 @@
 "use client";
 import { TiAdjustContrast } from "react-icons/ti";
 import { TiMail } from "react-icons/ti";
-import { GiAbstract033 } from "react-icons/gi";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
@@ -10,8 +9,6 @@ import Typewriter from "./Typewriter";
 import Pardhiv from "../../public/Pardhiv.jpg";
 import { useState } from "react";
 import PAIcon from "../../public/PAIcon.ico";
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Education from "./Education";
 import Projects from "./Projects";
 import TableofContents from "./TableofContents";
@@ -20,7 +17,6 @@ import { auth } from "./firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import Chat from "./Chat";
 import ChatSpace from "@/app/ChatSpace";
-import ChatBox from "./ChatBox";
 export default function Home() {
   const [darkMode, SetdarkMode] = useState(false);
   const [user] = useAuthState(auth);

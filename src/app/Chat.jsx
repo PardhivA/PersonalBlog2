@@ -1,8 +1,8 @@
 import React from "react";
 import { auth } from "../app/firebase";
-import { useAuthState } from "react-firebase-hooks/auth";
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
 import Image from "next/image";
+
 import ChatImage from "../../public/Chat.jpg";
 import GoogleSignInWhite from "../../public/GoogleSignInWhite.png";
 import GoogleSignInBlack from "../../public/GoogleSignInBlack.png";

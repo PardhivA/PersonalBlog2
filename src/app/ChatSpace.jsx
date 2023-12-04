@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { auth, db } from "../app/firebase";
-import ChatBox from "./ChatBox";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
-import { async } from "@firebase/util";
 function ChatSpace() {
   const [message, setMessage] = useState("");
 
