@@ -1,7 +1,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
-
+import { useHeadsObserver } from "./hooks";
 function TableofContents() {
+  const { activeId } = useHeadsObserver();
   const [headings, setHeadings] = useState([]);
   useEffect(() => {
     const elements = Array.from(document.querySelectorAll("h2, h3, h4")).map(
@@ -42,7 +43,9 @@ function TableofContents() {
                       behavior: "smooth",
                     });
                   }}
-                  className=" text-2xl dark:text-white"
+                  className={` text-2xl ${
+                    activeId === heading.id ? "font-bold" : ""
+                  } dark:text-white`}
                 >
                   {heading.text}
                 </a>

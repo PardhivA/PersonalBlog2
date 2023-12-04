@@ -29,8 +29,9 @@ export const list = [
   {
     Name: "Compiler Design for C",
     Photo: CompilerforC,
-    Link: "",
-    Description: "",
+    Link: "https://github.com/PardhivA/C-Compiler",
+    Description:
+      "A custom made compiler for C Language made using yacc and flex. All the basic constructs like variable declarations, arithmetic expressions, assignments, control-flow constructors like if , if-else, swithc, loop constructs like while, do-while along with break and continue statements are present.",
   },
   {
     Name: "SynbioSpark",
