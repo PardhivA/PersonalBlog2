@@ -8,7 +8,7 @@ import Image from "next/image";
 import Typewriter from "./Typewriter";
 import Pardhiv from "../../public/Pardhiv.jpg";
 import { useState } from "react";
-import PAIcon from "../../public/PAIcon.ico";
+import PAIcon from "../../public/PAIcon.png";
 import Education from "./Education";
 import Projects from "./Projects";
 import TableofContents from "./TableofContents";
