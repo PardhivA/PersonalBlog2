@@ -49,7 +49,7 @@ export default function Home() {
               />
               <a href="#">
                 <h1 className="text-1xl pl-3 mt-2 font-bold font-burton bg-gradient-to-r from-green-500 to-indigo-500 inline-block bg-clip-text text-transparent cursor-pointer">
-                  Pardhiv's Personal Blog
+                  Pardhiv Personal Blog
                 </h1>
               </a>
             </div>
