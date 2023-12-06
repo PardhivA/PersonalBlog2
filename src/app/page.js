@@ -113,10 +113,10 @@ export default function Home() {
             {" "}
             Pardhiv Annabattula
           </h1>
-          <h2 className="py-2 font-bold dark:text-white">
+          <h2 className="py-2 font-bold text-black dark:text-white">
             Full stack App and Web Developer and Machine learning enthusiast
           </h2>
-          <p className="py-2 dark:text-white">
+          <p className="py-2 text-black dark:text-white">
             3rd Year Undergrad in CSE at IIT Tirupati. I am from Hyderabad,
             Telangana. Interested in Machine learning, well versed with Full
             stack development. Check out my projects for more idea.{" "}

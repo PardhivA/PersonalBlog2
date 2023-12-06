@@ -45,7 +45,7 @@ const Typewriter = ({ delay }) => {
 
   return (
     <div className="flex justify-center mt-20 pt-5">
-      <span className="font-mono text-4xl object-center mb-20 dark:text-white">
+      <span className="font-mono text-black text-4xl object-center mb-20 dark:text-white">
         {currentText}
       </span>
     </div>

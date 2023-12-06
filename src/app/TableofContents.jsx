@@ -45,7 +45,7 @@ function TableofContents() {
                   }}
                   className={` text-2xl ${
                     activeId === heading.id ? "font-bold" : ""
-                  } dark:text-white`}
+                  } text-black dark:text-white`}
                 >
                   {heading.text}
                 </a>
